@@ -18,7 +18,7 @@ body {
     /* font, change to '' for default discord font */
     --font: 'gg sans'; /* change to '' for default discord font */
     --code-font: ''; /* change to '' for default discord font */
-    /* font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
+    font-weight: 400; /* normal text font weight. DOES NOT AFFECT BOLD TEXT */
 
     /* sizes */
     --gap: 12px; /* spacing between panels */
@@ -97,9 +97,6 @@ body {
 --hover: rgba(160, 130, 120, 0.1); /* channels and buttons when hovered */
 --active: rgba(160, 130, 120, 0.2); /* channels and buttons when clicked or selected */
 --message-hover: hsla(0, 0%, 0%, 0.1); /* messages when hovered */
-
-/* amount of spacing and padding */
-/* --spacing: 12px; */
 
 /* animations */
 /* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
